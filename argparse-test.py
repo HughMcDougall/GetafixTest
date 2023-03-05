@@ -9,6 +9,7 @@ def main():
 
     args = ap.parse_args()
 
+    print("If you are seeing this, the file has run")
     print(type(args.input1))
     print(type(args.input2))
     print(type(args.input3))
@@ -16,6 +17,7 @@ def main():
     print(args.input1)
     print(args.input2)
     print(args.input3)
+    print("If you are seeing this, the file has completed")
 
 if __name__ == "__main__":
     main()
