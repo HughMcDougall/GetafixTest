@@ -1,5 +1,4 @@
 from argparse import ArgumentParser
-
 def main():
     ap = ArgumentParser(description='This is a test argparse file')
 
